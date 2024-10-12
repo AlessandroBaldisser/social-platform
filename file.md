@@ -28,6 +28,7 @@ Riferimenti:
 -un post può avere più media come foto e video: ONE(post) to MANY(media)
 -un post può avere più tags: ONE(post) to MANY(tags)
 -un post può avere più commenti: ONE(post) to MANY(commenti)
+-un post può avere più likes: ONE(post) to MANY(like)
 
 
 
