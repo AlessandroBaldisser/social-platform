@@ -1,6 +1,12 @@
 QUERY #1
 Seleziona gli utenti che hanno postato almeno un video
 
+    select u.id, u.username, m.`type` 
+    from medias m
+    join users u on u.id = m.user_id  
+    where m.type like 'video';
+    
+
     select count(user_id), user_id  
     from medias m 
     where type like 'video' 
